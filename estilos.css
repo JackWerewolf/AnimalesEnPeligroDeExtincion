@@ -4,7 +4,6 @@ body{
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    background-color: rgba(0, 0, 0, 1) !important;
 
 }
 
@@ -42,6 +41,12 @@ body{
     bottom: 0;
     height: 100vh;
     z-index: -10;
+}
+
+.dark-background {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    width: 100%;
+    height: 100%;
 }
 
 #animal-overlay {
