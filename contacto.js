@@ -8,9 +8,16 @@ const submitInfo =  (event) =>{
     // Previene la recarga de la pagina por el formulario.
     event.preventDefault();
     console.log(mail.value);
-    console.log(password.value);
 
-}
+    if(password.value === "java"){
+        $('#correctModal').modal('show')
+    } else if (password.value === ""){
+        $('#errorModal').modal('show')
+    } else {
+        alert("contraseña incorrecta")
+    }
+    
+    }
 
 
 boton.addEventListener('click', submitInfo)
