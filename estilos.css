@@ -145,6 +145,18 @@ body{
     margin-left: 20px;
 }
 
+#errorModal {
+    text-align: center;
+}
+
+#exampleModalLabel {
+    width: 100%;
+}
+
+#correctModal {
+    text-align: center;
+}
+
 
 @media only screen and (max-width: 660px) {
     .icons {
